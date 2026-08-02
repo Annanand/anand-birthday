@@ -82,10 +82,28 @@ button:hover{
     transform:scale(1.05);
 }
 </style>
+    .hearts {
+  font-size: 30px;
+  margin: 20px;
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
 
 </head>
 
 <body>
+    <div class="hearts">❤️ 💕 ❤️ 💕 ❤️</div>
 
 <div class="hero">
 
