@@ -111,7 +111,7 @@ button:hover{
     <div class="message">
   <h2>To My Love ❤️</h2>
   <p>
-    Happy Birthday Anand! 🎂❤️<br><br>
+    Happy Birthday Echaa 🎂❤️<br><br>
     Even though we are miles apart today, you are always close to my heart.
     Thank you for being my comfort zone, my safe place, and my biggest blessing.
     I’m so grateful for every moment we share and I pray that this year brings
@@ -120,6 +120,24 @@ button:hover{
     always with you. ❤️
   </p>
     </div>
+    <button onclick="showSurprise()">Click for a surprise ❤️</button>
+
+<div id="surprise" style="display:none;">
+  <h2>My Surprise For You 💕</h2>
+  <p>
+     ❤️<br><br>
+    No matter how far we are, you are always in my heart.
+    Thank you for being my happiness, my strength, and my safe place.
+    I’m so lucky to have you in my life.<br><br>
+    Happy Birthday once again! 🎂❤️
+  </p>
+</div>
+
+<script>
+function showSurprise() {
+  document.getElementById("surprise").style.display = "block";
+}
+</script>
     <div class="photos">
   <img src="DSC08757 (2).jpg" alt="Birthday photo">
   <img src="IMG-20260423-WA0075(1).jpg" alt="Birthday photo">
@@ -133,6 +151,20 @@ button:hover{
 </div>
 
 <style>
+    button {
+  background: #d63384;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 25px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+button:hover {
+  opacity: 0.8;
+}
     .message {
   margin: 30px 20px;
   padding: 20px;
